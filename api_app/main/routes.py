@@ -19,11 +19,11 @@ def home_response():
 
 @main.route("/DownloadOsx")
 def download_mac():
-    return send_file('static/GameCrusherMAC1.0.app.zip')
+    return send_file('static/GameCrusherMAC1.1.app.zip')
 
 @main.route("/DownloadWin")
 def download_windows():
-    return send_file("static/GameCrusherWin1.0.zip")
+    return send_file("static/GameCrusherWin1.1.zip")
 
 @main.route('/API/Create/User',methods=['POST'])
 def create_user():
